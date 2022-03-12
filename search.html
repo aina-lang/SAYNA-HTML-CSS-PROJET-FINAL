@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+			<meta charset="UTF-8">
+			<meta http-equiv="X-UA-Compatible" content="IE-edge">
+			<meta name="viewport" content="width=device-width" initial-scale="1.0"/>
+			<!-- <link rel="stylesheet" href="#.css"> -->
+			<link rel="stylesheet" href="search.css">
+			<link rel="stylesheet" href="header-footer.css">
+			<!-- frameworks -->
+			<link rel="stylesheet" href="bootstrap.min.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+			<script src="bootstrap.min.js"></script>
+			<!-- fin du frameworks -->
+					
+			<title>search</title>
+	</head>
+	<body>
+		<!-- debut header -->
+        <header>
+            <!-- debut bar de menu -->
+             <!-- debut bar de menu -->
+			 <nav class="nav-bar">
+                <div class="logo">
+                    <img src="Assets/Images/group-2.svg" width="100px" alt="">
+                    <a href="index.html"><h2> [Events]</h2></a>
+                </div>
+                <div class="menu">    
+                    <a href="#" id=""><i class="fa-solid fa-magnifying-glass"></i><span> Search</span>  </a>
+                    <a href="about.html" id=""><i class="fa-solid fa-user"> </i>      <span>About</span> </a>
+                    <a href="#" id=""><i class="fa-solid fa-rss"></i><span> Blog</span></a>
+                    <a href="#" id=""><i class="fa-solid fa-bars"></i> <span>More</span></a>
+                </div>
+            </nav>
+            <!-- fin bar de menu -->
+        </header>
+        <!-- fin header -->
+
+		<!-- fin section -->
+		<main>
+        <!-- debut section -->	
+				<div class="change_form">
+					<h3 style="text-align: center;margin-bottom: 50px;width: 90%;">Filter by location,host,subject,date,daytime:</h3>
+					<form method="post" action="">
+						<div>
+							<label for="Location">Location</label><br>
+							<input type="text" id="Location" size="8px">
+						</div>
+						<div>
+							<label for="Host">Host</label><br>
+							<input type="text" id="Host" size="8px"/>
+						</div>
+						<div>
+							<label for="Subject">Subject</label><br>
+							<input type="text" id="Subject"  size="9px">
+						</div>
+						<div>
+							<label for="initial-date">Initial date</label><br>
+							<input type="date" id="Initial Date" placeholder="06/18/2020" size="8px"/>
+						</div>
+						<div>
+							<label for="Final-date">Final date</label><br>
+							<input type="date" id="Final Date" />
+						</div>
+						<div>
+							<label for="day-time">Day time</label><br>
+							<select name="" id="day-time"  >
+								<option value="choice">  choose</option>
+								<option value=""></option>
+							</select>
+						</div>
+						<div>
+							<label for=""></label><br>
+							<input type="submit" value="Search" id="change_search"/>
+						</div>
+						<div>
+							<label for=""></label><br>
+							<input type="submit" value=" clear file" size="8px" id="change_clear"/>
+						</div>
+					</form>
+				</div>
+				<div class="row">
+					<h5 style="text-align: center;color: #98a5a5;"> Search Result Found 7[Events] Nearby</h4>
+					<div class="col-md-4">
+						<a href="about.html">
+							<img src="Assets/Images/group-2.svg" alt="">
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="about.html">
+							<img src="Assets/Images/group-2.svg" alt="">
+						</a>
+					</div>
+					<div class="col-md-4">
+						<a href="about.html">
+							<img src="Assets/Images/group-2.svg" alt="">
+						</a>
+					</div>
+				</div>
+		</main>
+		<!-- pied du page -->
+			<footer>
+				<div class="menu-du-footer">
+					<div class="menu1">
+						<a href="index.html">HOME</a>
+						<a href="search.html">SEARCH</a>
+						<a href="about.html">ABOUT US</a>
+						<a href="index.html">ADVERTISE</a>
+					</div>
+					<a href="#" class="localisation">
+						<i class="fa-solid fa-location-dot"></i>
+					</a>
+					<div class="menu2">
+						<a href="index.html">FACEBOOK</a>
+						<a href="index.html">TWITTER</a>
+						<a href="index.htrml">INSTAGRAM</a>
+						<a href="index.html">BLOG</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<span> Subscribe</span>
+						<form action="" method="post">
+							<div >
+								<input type="text" class="email" placeholder="Insert your e-mail here">
+								<input type="submit" value="send"  class="send" >
+							</div>
+						</form>
+					</div>
+					<div class="col-md-4">
+						<span> Contact</span>
+						<p>Have a question or sugestion?</p>
+						<a href="mailto:contact@events.com">contact@events.com</a>
+					</div>
+					<div class="col-md-4">
+						<span>About</span>
+						<p> [Events]is an online plataforme that works to inprove and increase social life connections,
+								  when this nightmare that we are curently living is over 
+								  <a href="about.html">learn more</a>
+						</p>
+					</div>
+				</div>
+				<div class="footer2">
+					<div class="icone">
+						<a href="#"><i class="fa-brands fa-facebook-square"></i></a>
+						<a href="#"><i class="fa-brands fa-twitter"></i></a>
+						<a href="#"><i class="fa-brands fa-instagram"></i></a>
+						<a href="#"><i class="fa-brands fa-tumblr"></i></a>
+						<a href="#"><i class="fa-brands fa-linkedin"></i></a>
+					</div>
+					<div class="copright">
+						&copy;2020 [Events],Inc.All rights reserved
+				</div>
+			</div>
+		</footer>
+		<!-- fin pied du page -->
+	</body>
+</html>
